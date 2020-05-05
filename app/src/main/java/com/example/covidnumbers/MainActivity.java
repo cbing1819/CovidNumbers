@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+/**
+ * Yo, this is the mainActivity where everything are protaled from and to. Quite grand, innit?
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override

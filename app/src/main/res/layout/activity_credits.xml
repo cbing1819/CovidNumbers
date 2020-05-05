@@ -15,8 +15,9 @@
         android:layout_marginTop="50dp"
         android:layout_marginEnd="50dp"
         android:layout_marginRight="50dp"
-        android:text="Developed by \nLifeng Zhang and Raphael Moon \nMade possible through \ncovid19api \nData from \nJohns Hopkins CSSE"
-        android:textSize="13pt"
+        android:text="Developed by: \nLifeng Zhang and Raphael Moon \nUses: \nCOVID19API \nData from: \nJohns Hopkins CSSE \nSpecial thanks to: \nUIUC CS 125 TAs amd CAs Spring 2020"
+
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -43,7 +44,7 @@
             android:text="Email Us" />
 
         <Button
-            android:id="@+id/goBack"
+            android:id="@+id/goBackCredit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Go Back" />
