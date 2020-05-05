@@ -151,7 +151,10 @@ public class SelectActivity extends AppCompatActivity {
                     BarData barData = new BarData(theDates, barDataSet);
                     barChart.setData(barData);
                 } catch (JSONException e) {
-                    totalInfectedN.setText("Response is UYA");
+                    totalInfectedN.setText("No Response from Server");
+                    totalDeathN.setText("No Response from Server");
+                    dailyInfectedN.setText("No Response from Server");
+                    dailyDeathN.setText("No Response from Server");
                     e.printStackTrace();
                 }
             }

@@ -76,9 +76,9 @@ public class GlobalActivity extends AppCompatActivity {
                             totalInfectedG.setText(tIG);
                             String tDG = "" + response.getJSONObject("Global").get("TotalDeaths");
                             totalDeathG.setText(tDG);
-                            String dIG = "" + response.getJSONObject("Global").get("NewDeaths");
+                            String dIG = "" + response.getJSONObject("Global").get("NewConfirmed");
                             dailyInfectedG.setText(dIG);
-                            String dDG = "" + response.getJSONObject("Global").get("NewConfirmed");
+                            String dDG = "" + response.getJSONObject("Global").get("NewDeaths");
                             dailyDeathG.setText(dDG);
                         } catch (JSONException e) {
                             totalInfectedG.setText("Response is UYA");
