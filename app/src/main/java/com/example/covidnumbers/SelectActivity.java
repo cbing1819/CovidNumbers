@@ -100,9 +100,9 @@ public class SelectActivity extends AppCompatActivity {
                             totalInfectedN.setText(tIN);
                             String tDN = "" + jObj.get("TotalDeaths");
                             totalDeathN.setText(tDN);
-                            String dIN = "" + jObj.get("NewDeaths");
+                            String dIN = "" + jObj.get("NewConfirmed");
                             dailyInfectedN.setText(dIN);
-                            String dDN = "" + jObj.get("NewConfirmed");
+                            String dDN = "" + jObj.get("NewDeaths");
                             dailyDeathN.setText(dDN);
                         }
                     }
